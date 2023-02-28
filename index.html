@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Vehk </title>
+   <link rel="shortcut icon" href="image/VEHKLogo.png" type="image/x-icon">
+   <!-- Bootstrap , fonts & icons  -->
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+   <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+   <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+   <!-- Plugin'stylesheets  -->
+   <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+   <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+   <!-- Vendor stylesheets  -->
+   <link rel="stylesheet" href="main.css">
+   <!-- Custom stylesheet -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+   <div class="site-wrapper overflow-hidden position-relative">
+      <!-- Site Header -->
+      <!-- Preloader -->
+      <!-- <div id="loading">
+            <div class="preloader">
+             <img src="./image/preloader.gif" alt="preloader">
+            </div>
+            </div>    -->
+      <!--Site Header Area -->
+
+
+      <header class="site-header site-header--menu-left landing-11-menu site-header--absolute site-header--sticky"
+         style="background-color: transparent;">
+         <div class="container">
+            
+            <nav class="navbar site-navbar">
+               <!-- Brand Logo-->
+               <div class="menu-block-wrapper">
+                  <div class="menu-overlay"></div>
+                  <nav class="menu-block" id="append-menu-header">
+                     <div class="mobile-menu-head">
+                        <div class="go-back">
+                           <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="current-menu-title"></div>
+                        <div class="mobile-menu-close">&times;</div>
+                     </div>
+                     <ul class="site-menu-main">
+                        <li class="nav-item nav-item-has-children">
+                           <img style="position: relative;top: 20px;" src="VEHKLogo.png" height="50px" width="50px"
+                              alt="">
+                           <a style="font-size: 15px; font-family: Jost, sans-serif;  color: white; " href="#"
+                              class="nav-link-item drop-trigger">About <i class="fas fa-angle-down"></i>
+                           </a>
+                           <ul class="sub-menu" id="submenu-9">
+                              <li class="sub-menu--item">
+                                 <a href="#">Dropdown 01</a>
+                              </li>
+                              <li class="sub-menu--item">
+                                 <a href="#">Dropdown 02</a>
+                              </li>
+                              <li class="sub-menu--item">
+                                 <a href="#">Dropdown 03</a>
+                              </li>
+                              <li class="sub-menu--item">
+                                 <a href="#">Dropdown 04</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a style="font-size: 15px; font-family:Jost, sans-serif; color: white; " href="#"
+                              class="nav-link-item">Features</a>
+                        </li>
+                        <li class="nav-item">
+                           <a style="font-size: 15px; font-family: Jost, sans-serif; color: white; "
+                              href="https://uxtheme.net/product-support/" class="nav-link-item">Help?</a>
+                        </li>
+
+                     </ul>
+                  </nav>
+
+                  <!-- Login Modal -->
+                  <form action="signin.php" method="POST">
+                     <div class="modal fade " id="modalloginform" tabindex="-1" role="dialog"
+                        aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header text-center">
+                                 <h2 class="modal-title w-100 font-weight-bold">Sign in</h2>
+                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body mx-3">
+                                 <div class="md-form mb-5">
+
+
+                                 </div>
+                                 <div class="md-form mb-5">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input name="email" type="email" id="email" class="form-control validate">
+                                    <label for="email">Your Email</label>
+                                 </div>
+                                 <div class="md-form mb-4">
+                                    <i class="fas fa-lock prefix grey-text"></i>
+                                    <input name="pass" type="password" id="password" class="form-control validate">
+                                    <label for="password">Your Password</label>
+                                 </div>
+
+                              </div>
+                              <div class="modal-footer d-flex justify-content-center">
+                                 <button name="submit" type="submit">Sign in</button>
+                                 <!--<p>dont you have account?</p> <a href=""  data-toggle="modal" data-target="#modalRegisterForm" >Sign up</a>-->
+                              </div>
+                  </form>
+               </div>
+         </div>
+   </div>
+   <div style="margin-top:10px">
+
+      <a style="font-size: 15px; font-family: Jost, sans-serif; background-color: transparent; color: white;" href=""
+         class="btn btn-default btn-rounded mb-4 nav-item" data-toggle="modal" data-target="#modalloginform"
+         tabindex="-1">Sign in</a>
+
+   </div>
+
+   </div>
+
+
+
+   <!-- <SIGN UP MODAL> -->
+
+
+   <form action="signup.php" method="POST">
+      <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header text-center">
+                  <h2 class="modal-title w-100 font-weight-bold">Sign Up</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body mx-3">
+                  <div class="md-form mb-5">
+                     <i class="fas fa-user prefix grey-text"></i>
+                     <input name="name" type="text" id="name" class="form-control validate">
+                     <label for="name">Your Name</label>
+                  </div>
+                  <div class="md-form mb-5">
+                     <i class="fas fa-envelope prefix grey-text"></i>
+                     <input name="email" type="email" id="email" class="form-control validate">
+                     <label for="email">Your Email</label>
+                  </div>
+                  <div class="md-form mb-4">
+                     <i class="fas fa-lock prefix grey-text"></i>
+                     <input name="pass" type="password" id="password" class="form-control validate">
+                     <label for="password">Your Password</label>
+                  </div>
+                  <div class="md-form mb-4">
+                     <i class="fas fa-lock prefix grey-text"></i>
+                     <input type="password" id="password" class="form-control validate">
+                     <label for="password">Confirm Your Password</label>
+                  </div>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <button name="submit" type="submit" class="btn btn-deep-orange">Sign Up</button>
+               </div>
+   </form>
+   </div>
+   </div>
+   </div>
+
+   <div style="margin-top: 10px;">
+
+      <a style="font-size: 15px; font-family:Jost, sans-serif; background-color: transparent; color: white" href=""
+         class="btn btn-default btn-rounded mb-4 nav-item  nav-link-item" data-toggle="modal"
+         data-target="#modalRegisterForm" tabindex="-1">Sign Up</a>
+   </div>
+   </div>
+   <!-- mobile menu trigger -->
+   <div class="mobile-menu-trigger">
+      <span></span>
+   </div>
+   <!--/.Mobile Menu Hamburger Ends-->
+   </nav>
+   </div>
+   </header>
+   <!-- navbar- -->
+   <!-- Hero Area -->
+   <!-- <div class="hero-area-l11 position-relative z-index-1 overflow-hidden">
+            <div class="position-relative z-index-1">
+               <div class="col-lg-7 order-lg-1 order-0 align-items-center" data-aos="fade-up" data-aos-duration="2800" data-aos-once="true" style="border-radius: 10px;">        
+                  <img src="image/l2/image.gif" alt="" class="d-flex">
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1 aos-init aos-animate" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+               <div class="content section-heading-5">
+                  <h2>
+                     Let your Garage's work done Quick and Easily
+                  </h2>
+               </div>
+            </div>
+         </div> -->
+
+   <!-- Early Access MODAL> -->
+
+
+   <form action="early-access.php" method="POST">
+      <div class="modal fade" id="modalEarlyAccessForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header text-center">
+                  <h2 class="modal-title w-100 font-weight-bold">Get Early Access</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body mx-3">
+                  <div class="md-form mb-5">
+                     <i class="fas fa-user prefix grey-text"></i>
+                     <input name="name" type="text" id="name" class="form-control validate">
+                     <label for="name">Enter your name</label>
+                  </div>
+                  <div class="md-form mb-5">
+                     <i class="fas fa-envelope prefix grey-text"></i>
+                     <input name="email" type="email" id="email" class="form-control validate">
+                     <label for="email">Enter your email</label>
+                  </div>
+                  <div class="md-form mb-4">
+                     <i class="fas fa-phone prefix grey-text"></i>
+                     <input name="phone" type="number" id="phone" class="form-control validate">
+                     <label for="phone">Enter phone number</label>
+                  </div>
+                  <div class="md-form mb-4">
+                     <i class="fas fa-location prefix grey-text"></i>
+                     <input type="location" id="text" class="form-control validate">
+                     <label for="location">Enter your location</label>
+                  </div>
+               </div>
+               <div class="modal-footer d-flex justify-content-center">
+                  <button name="submit" type="submit" class="btn btn-deep-orange">Get Early Access</button>
+               </div>
+   </form>
+   </div>
+   </div>
+
+
+   </div>
+   </div>
+   </div>
+   <div class="hero-area-l11 position-relative z-index-1 overflow-hidden"
+      style="background: linear-gradient(to right, #434343 0%, black 100%);">
+      <div class="row">
+         <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-9 order-lg-1 order-1 aos-init aos-animate" data-aos="zoom-out"
+            data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-5">
+               <style>
+                  .left {
+                     justify-content: center;
+                     text-align: center;
+                     border: 3px;
+                     padding-top: 100px;
+                     width: 100%;
+                     padding: 50px;
+                     padding-bottom: 80px;
+                  }
+               </style>
+               <style>
+                  h3 {
+                     text-align: center;
+                     font-size: 25px;
+                     font-family: Arial, Helvetica, sans-serif;
+                     font-weight: bold;
+                     color: white;
+                     
+
+                  }
+               </style><br><br>
+
+
+               <center><br>&nbsp;
+
+                  <div class="left container col-lg-12"><br><br>
+                     <div style="margin-bottom: 10px;">
+                        <h3 style="line-height: 30px; "> 
+                           Boost your sales by managing all your garage operations 
+                           <br style="line-height: 0.1px;">
+                           with our garage management software.
+                           <!--From scheduling job cards to managing Inventory.-->
+                        </h3>
+                     </div>
+                     
+                     <div>
+                        <h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #f3eeee;"> Our
+                           cloud-based software helps you to improve efficiency by 30%
+                        </h3>
+                     </div>
+                     
+
+                     <h3> <a style="font-size: 20px;position:relative; background-color: #373a61; color: white" href=""
+                           class="btn btn-default btn-rounded mb-4 nav-item  nav-link-item btn-early"
+                           data-toggle="modal" data-target="#modalEarlyAccessForm" tabindex="-1">Get Early Access</a>
+                     </h3>
+                  </div>
+
+               </center>
+            </div>
+
+         </div>
+         <!--               
+              <div class="col-lg-7 order-lg-1  order-0"  data-aos="zoom-in" style="padding-right:90px;"data-aos-duration="100s" data-aos-once="true">
+              <img src="image/l2/6129.jpg" alt="" class="w-100 img-fluid animated" style="width: 300px; height:400px;">        
+             </div> -->
+
+      </div>
+   </div>
+
+
+
+   <!-- Brand-area -->
+   <!-- <div class="brand-area-l11">
+      <div class="container">
+         <div class="row img-grayscale">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+               <div
+                  class="brand-logos d-flex justify-content-center justify-content-xl-between align-items-center flex-wrap ">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div> -->
+   <!-- Content Area-1 -->
+   <div class="content-area-l-11-1" style="background: linear-gradient(to right, #434343 0%, black 100%); overflow: overflow: hidden;">
+      <div class="container">
+         <div class="row align-items-center justify-content-lg-start justify-content-center">
+            <!-- <div class="col-xl-6 col-md-5 col-md-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+               <div class="content-img position-relative z-index-1 image-hover-style-01 ">
+                  <img style="position: relative;bottom: 70px;" src="image/l2/image.gif" alt="" class="w-100">
+               </div>
+            </div> -->
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 order-lg-1 order-1 aos-init aos-animate"
+               data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+               <div class="content section-heading-5">
+                  
+               </div>
+            </div>
+      </div>
+   </div>
+
+
+<!-- Content Area -->
+<div class="content-area-l-11-3 position-relative" style="color: white;">
+   <div class="container">
+      <div class="row align-items-center justify-content-center justify-content-lg-start">
+         <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0  aos-init aos-animate" data-aos="fade-up"
+            data-aos-delay="500" data-aos-duration="1000">
+               <img src="image/l2/6129.jpg" alt="Img 1" class="w-100">
+         </div>
+         <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1 " data-aos="fade-up"
+            data-aos-delay="300" data-aos-duration="1000">
+            <div class="content section-heading-5">
+               <style>
+                     .right {
+ 
+                        border: 3px;
+
+
+                        margin-left: 10px;
+                        padding: 60px;
+                        padding-bottom: 100px;
+                        padding-top: 80px;
+
+                     }
+                  </style>
+                  <div class="right">
+                     <h2
+                        style="font-size:25px; text-align: center; font-family:Jost, sans-serif; color: white; line-height: 1.0;">
+                        Quick access to customer details and repair history, you can provide top-notch service with
+                        ease. Let your Garage's work be done Quickly and Easily</h2>
+                     <br>
+                     <h3> <a style="font-size: 20px;position:relative; background-color: #373a61; color: white" href=""
+                           class="btn btn-default btn-rounded mb-4 nav-item  nav-link-item btn-early"
+                           data-toggle="modal" data-target="#modalEarlyAccessForm" tabindex="-1">Get Early Access</a>
+                     </h3>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+   <!-- Content Area-2  -->
+   <div class="content-area-l-11-2 position-relative">
+      <div class="container">
+         <div class="row align-items-center justify-content-center justify-content-lg-start ">
+            <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0 aos-init aos-animate" data-aos="fade-right"
+               data-aos-duration="800" data-aos-once="true">
+               <div class="content section-heading-5">
+                  <h2 style="font-size: 25px; font-family:Jost, sans-serif; color: white;">
+                     Why Vehk.Garages?
+                  </h2>
+                  <div class="d-flex content-l-11-3-card" style="background-color: #80c0f2;">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="27" viewBox="0 0 32 27">
+                        <g>
+                           <g>
+                              <g>
+                                 <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                    d="M25.528 25.615v0h5.47v0-5.911c0-.56-.341-1.062-.86-1.27l-5.118-2.05a1.367 1.367 0 0 1-.86-1.267v-1.2a5.445 5.445 0 0 0 2.735-4.711V6.471a5.47 5.47 0 0 0-8.205-4.738">
+                                 </path>
+                              </g>
+                              <g>
+                                 <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2"
+                                    d="M19.367 19.846l-5.14-2.036a1.358 1.358 0 0 1-.864-1.257v-1.192a5.394 5.394 0 0 0 2.747-4.676V7.97c0-2.999-2.46-5.43-5.495-5.43-3.034 0-5.494 2.431-5.494 5.43v2.715a5.394 5.394 0 0 0 2.747 4.676v1.192c0 .555-.342 1.054-.864 1.26l-5.14 2.036c-.52.206-.863.703-.864 1.257v4.51h19.23v0-4.51c0-.555-.342-1.054-.863-1.26z">
+                                 </path>
+                              </g>
+                           </g>
+                        </g>
+                     </svg>
+                     <div class="content-body">
+                        <h5>Time Effective</h5>
+                        <p>
+                           ►Easy to use</p>
+                        <p>►Simple to Understand</p>
+                        <p>► Keeps you on tract with minimal effort.</p>
+                     </div>
+                  </div>
+                  <div class="d-flex content-l-11-3-card" style="background-color: #80c0f2;">
+                     <img src="image/l2/settings.svg" alt="icon">
+                     <div class="content-body">
+                        <h5>Secure and Reliable</h5>
+                        <p>►We provide a safe and secure platform to all our customers</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left"
+               data-aos-duration="100" data-aos-once="true">
+               <img src="image/content-2-img.jpg" alt="image" width="450px" height="350px">
+            </div>
+
+         </div>
+      </div>
+   </div>
+   <!-- Content Area -->
+   <div class="content-area-l-11-3 position-relative" style="color: white;">
+      <div class="container">
+         <div class="row align-items-center justify-content-center justify-content-lg-start">
+            <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0  aos-init aos-animate" data-aos="fade-up"
+               data-aos-delay="500" data-aos-duration="1000">
+               <div class="content-img slideshow">
+                  <img src="image/l2/running-car.gif" alt="Img 1" class="w-100">
+               </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1 " data-aos="fade-up"
+               data-aos-delay="300" data-aos-duration="1000">
+               <div class="content section-heading-5">
+                  <h2 style="color: white; font-size: 25px;">Future updates?</h2>
+                  <p style="color: white;">"Stay ahead in the business with future updates. Our team is constantly working to provide you with
+                     new and resourceful features, designed to engage with customers and generate profits."
+                  </p>
+                  <ul class="list-unstyled pl-0 " style="color: white;">
+                     <li class="d-flex align-items-center">
+                        <i class="fas fa-check" style="color: white;" ></i><p style="color: white;">Tracking the Health condition of your Service-done Vehicles</p>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <i class="fas fa-check" style="color: white;"></i><p style="color: white;">NFC Automation</p>
+                     </li>
+                     <li class="d-flex align-items-center">
+                        <i class="fas fa-check" style="color: white;"></i><p style="color: white;">Real time Predictive Analysis</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Feature Area -->
+   <div class="feature-l-11">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-9 px-lg-12 col-md-12">
+               <div class="row justify-content-center">
+                  <div class="col-lg-10 text-center">
+                     <div class="section-heading-5">
+                        <h2 style="font-size: 20px;">
+                           Your Garage, Our Responsibility
+                        </h2>
+                        <p> Manage your services and inventory, and don't hesitate to contact us for any questions or
+                           inquiries. We are dedicated to ensuring a smooth and hassle-free experience for all our
+                           customers.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row feature-l-11-items justify-content-center">
+                  <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="fa fa-desktop"></i>
+                        </div>
+                        <div class="content-body">
+                           <h5>Free Life Time Software</h5>
+                           <p> Our platform allows garage owners to quickly and easily establish an online presence.
+                              After the 3 monthtrial, we charge a small commission fee of 2% on Invoices made through
+                              our platform.
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="material-icons"></i>
+                        </div>
+                        <div class="content-body">
+                           <div class="container">
+                              <h5>Auto Updates</h5>
+                              <p>Our site provides you a clear dashboard in which you can track all your garage details
+                                 and updates.
+
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="fa fa-rupee"></i>
+                        </div>
+                        <div class="content-body">
+                           <h5>Billing and Transactions</h5>
+                           <p>Daily updates of Bills and payments will be displayed in your dashboard with clear
+                              details.
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="fa fa-sticky-note"></i>
+                        </div>
+                        <div class="content-body">
+                           <h5>Free Insurance</h5>
+                           <p>We are providing a Government Authorized Free Insurance to all the Garage employees
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="fa fa-shopping-cart"></i>
+                        </div>
+                        <div class="content-body">
+                           <h5>Direct Product Shipment</h5>
+                           <p>We are responsible for proving Authentic and original products to your Garage without
+                              third party Involvment.
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                     <div class="d-flex ">
+                        <div class="icon-box">
+                           <i class="icon icon-settings-gear-64-2"></i>
+                        </div>
+                        <div class="content-body">
+                           <h5>Service Due Report</h5>
+                           <p>Our platform allows you to check all your service-due reports in one convenient location.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Newsletter-area start 
+      <div class="newsletter-l-11">
+         <div class="container">
+            <div class="row justify-content-center news-l-11-main-bg position-relative">
+               <div class="news-l-11-second-bg w-100 h-100"></div>
+               <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                  <div class="content text-center">
+                     <h5>Try our Mobile App!</h5>
+                     <div class="btn-area">
+                        <a href="https://play.google.com/store/apps/details?id=branded.in.vehk" class="btn"><i class="fas fa-download d-inline-block"></i> Download it Here</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>-->
+      <!-- Footer Area -->
+      <footer class="footer-l-11 text-center text-md-start">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="footer-logo-l-11">
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="footer-widget-l-11">
+                     <ul class="pl-0 list-unstyled d-flex flex-wrap justify-content-center align-items-end" style="color: white;">
+                        <li class="d-flex" ><a href="">About</a></li>
+                        <li class="d-flex"><a href="">Features</a></li>
+                        <li class="d-flex"><a href="">Works</a></li>
+                        <li class="d-flex"><a href="">Locations</a></li>
+                        <li class="d-flex"><a href="">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="social-icons-l-11">
+                     <ul
+                        class="pl-0 list-unstyled d-flex  justify-content-center justify-content-md-end align-items-end ">
+                        <li class="d-flex flex-column justify-content-center"><a href="https://twitter.com/"><i
+                                 class="fab fa-twitter"></i></a></li>
+                        <li class="d-flex flex-column justify-content-center"><a href="https://facebook.com/"><i
+                                 class="fab fa-facebook-f"></i></a></li>
+                        <li class="d-flex flex-column justify-content-center"><a href="https://google.com/"><i
+                                 class="fab fa-google"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copyright-area-l-11">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="text-center">
+                     <p>© All right reserved. Idotinfinity</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Vendor Scripts -->
+   <script src="js/vendor.min.js"></script>
+   <!-- Plugin's Scripts -->
+   <script src="./plugins/aos/aos.min.js"></script>
+   <script src="./plugins/slick/slick.min.js"></script>
+   <script src="./plugins/menu/menu.js"></script>
+   <!-- Activation Script -->
+   <script src="js/custom.js"></script>
+   <script src="js/slideshow.js"></script>
+   <script src="js/curosal.js"></script>
+
+</body>
+
+</html>
