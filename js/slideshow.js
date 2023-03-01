@@ -63,3 +63,6 @@ function resetInterval() {
   intervalId = setInterval(showNextSlide, 2000);
 }
 
+$('.hero-area-l11').gradient({
+  colors: ['#3c275f', '#191b41', '#070c2d']
+});
