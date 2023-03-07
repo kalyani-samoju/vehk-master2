@@ -1170,6 +1170,37 @@ li.sub-menu--item.nav-item-has-children i {
   transition: all .4s ease-in-out;
 }
 
+.button-signin {
+	border-radius: 20px;
+	border: 1px solid #5364dd;
+	background-color: #4a54e8;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.button-signin:active {
+	transform: scale(0.95);
+}
+
+.button-signin:focus {
+	outline: none;
+}
+
+.button-signin.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+input::placeholder {
+  font: 15px sans-serif;
+}
+
+
 .btn-early {
   border: none;
   border-radius: 50px;
